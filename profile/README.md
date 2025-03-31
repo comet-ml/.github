@@ -1,52 +1,49 @@
-# Comet · AI Observability and Evaluation
+<p align="center">
+  <img src="https://www.comet.com/images/logo_comet_light.png" width="350" alt="Comet Logo" />
+</p>
 
-Comet builds tools to help teams **evaluate**, **monitor**, and **understand** machine learning models and LLM applications across their lifecycle.
+<p align="center">
+  <strong>Tools for evaluating, monitoring, and understanding ML and LLM systems</strong>
+</p>
 
-This organization hosts both our classic ML tools and our next-generation LLM observability frameworks — including:
+<p align="center">
+  <a href="https://www.comet.com/docs">Documentation</a> |
+  <a href="https://www.comet.com">Website</a> |
+  <a href="https://github.com/comet-ml/opik">Opik</a> |
+  <a href="https://modelcontextprotocol.io">MCP</a>
+</p>
 
-- **Opik** – open-source framework for evaluating LLM applications
-- **Comet ML** – experiment tracking, model monitoring, and artifacts
-- **MCP** – our service supporting the Model Context Protocol
+Comet builds open tools and infrastructure to help teams ship better models. From ML experiment tracking to LLM tracing and context-aware agents, we support developers across the entire AI lifecycle.
+
+---
+
+## Getting Started
+
+- 🔬 Explore [Opik](https://github.com/comet-ml/opik): Debug, trace, evaluate and monitor LLM apps and RAG pipelines
+- 📈 Use [Comet ML](https://www.comet.com): Track experiments, datasets, models, and monitor production ML
+- 🧪 Try real-world [Examples](https://github.com/comet-ml/comet-examples): Notebooks, integrations, and how-tos
+- ⚙️ Extend with [opik-mcp](https://github.com/comet-ml/opik-mcp): Opik + MCP integration for structured LLM evaluation
 
 ---
 
 ## Projects
 
-### [Opik](https://github.com/comet-ml/opik)
-> Open-source observability framework for LLM pipelines
-
-Opik is a developer-first toolkit to trace, evaluate, and monitor large language model applications, RAG pipelines, and agents.
-
-It supports:
-- Function-level and chain-level tracing
-- Built-in and custom evaluation metrics
-- Integration with LangChain, LlamaIndex, or vanilla Python
-- Export to Comet UI or your own dashboards
-
-Ideal for debugging, fine-tuning, and QA of generative AI systems.
+- [opik](https://github.com/comet-ml/opik) – Open-source LLM evaluation & tracing framework  
+- [comet-examples](https://github.com/comet-ml/comet-examples) – Tutorials, notebooks, and example pipelines  
+- [opik-mcp](https://github.com/comet-ml/opik-mcp) – MCP-powered context and eval framework for Opik
 
 ---
 
-### [Comet ML](https://www.comet.com)
-> Machine learning observability platform
+## Contributing
 
-The original Comet platform powers traditional ML workflows with:
-- Experiment tracking
-- Model registry
-- Dataset & artifact versioning
-- Production model monitoring (MPM)
+We welcome contributions of all kinds – code, docs, feedback, and examples.  
+Start with any repo’s `README` and check out the open issues.
 
-It is used by thousands of data scientists to compare runs, track models, and manage experiments at scale.
+Questions? Join us in [Slack](https://www.comet.com/slack).
 
 ---
 
-## Get Involved
+## About
 
-- Visit [comet.com](https://www.comet.com) for documentation and signup
-- Explore [Opik](https://github.com/comet-ml/opik) and start evaluating LLMs
-- Check out the [MCP standard](https://modelcontextprotocol.io) and integrate it into your agents
-- Join the conversation on [Slack](https://www.comet.com/slack) or follow us on [X](https://twitter.com/cometml)
-
----
-
-Comet is on a mission to bring clarity to AI development. Whether you're building traditional ML pipelines or complex LLM systems, we provide the tools to ship better models, faster.
+Comet is a platform built for ML and LLM developers.  
+We help teams build, debug, and monitor AI systems with transparency and control.
