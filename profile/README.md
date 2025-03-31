@@ -38,6 +38,7 @@ Comet builds open tools and infrastructure to help teams ship better models. Fro
 
 We welcome contributions of all kinds – code, docs, feedback, and examples.  
 Start with any repo’s `README` and check out the open issues.
+See our [CONTRIBUTING.md](https://github.com/comet-ml/opik/blob/main/CONTRIBUTING.md) for more information and guidelines.
 
 Questions? Join us in [Slack](https://www.comet.com/slack).
 
