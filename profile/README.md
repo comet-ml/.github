@@ -9,8 +9,9 @@
 <p align="center">
   <a href="https://www.comet.com/docs">Documentation</a> |
   <a href="https://www.comet.com">Website</a> |
-  <a href="https://github.com/comet-ml/opik">Opik</a> |
-  <a href="https://modelcontextprotocol.io">MCP</a>
+  <a href="https://github.com/comet-ml/opik">Opik Repository</a> |
+  <a href="https://modelcontextprotocol.io">Opik MCP Repository</a> |
+  <a href="https://www.comet.com/docs/opik/agent_optimization/overview">Opik Agent & Prompt Optimization SDK</a>
 </p>
 
 Comet builds open tools and infrastructure to help teams ship better models. From ML experiment tracking to LLM tracing and context-aware agents, we support developers across the entire AI lifecycle.
