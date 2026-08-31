@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://www.comet.com/images/logo_comet_light.png" width="350" alt="Comet Logo" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://www.comet.com/images/logo_comet_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://www.comet.com/images/logo_comet_light.png">
+    <img src="https://www.comet.com/images/logo_comet_light.png" width="350" alt="Comet">
+  </picture>
 </p>
 
 <p align="center">
@@ -7,45 +11,30 @@
 </p>
 
 <p align="center">
-  <a href="https://www.comet.com/docs">Documentation</a> |
   <a href="https://www.comet.com">Website</a> |
-  <a href="https://github.com/comet-ml/opik">Opik Repository</a> |
-  <a href="https://modelcontextprotocol.io">Opik MCP Repository</a> |
-  <a href="https://www.comet.com/docs/opik/agent_optimization/overview">Opik Agent & Prompt Optimization SDK</a>
+  <a href="https://www.comet.com/docs">Documentation</a> |
+  <a href="https://www.comet.com/docs/opik/agent_optimization/overview">Agent &amp; Prompt Optimization</a> |
+  <a href="https://www.comet.com/slack">Slack</a>
 </p>
 
 Comet builds open tools and infrastructure to help teams ship better models. From ML experiment tracking to LLM tracing and context-aware agents, we support developers across the entire AI lifecycle.
 
 ---
 
-## Getting Started
-
-- 🔬 Explore [Opik](https://github.com/comet-ml/opik): Debug, trace, evaluate and monitor LLM apps and RAG pipelines
-- 📈 Use [Comet ML](https://www.comet.com): Track experiments, datasets, models, and monitor production ML
-- 🧪 Try real-world [Examples](https://github.com/comet-ml/comet-examples): Notebooks, integrations, and how-tos
-- ⚙️ Extend with [opik-mcp](https://github.com/comet-ml/opik-mcp): Opik + MCP integration for structured LLM evaluation
-
----
-
 ## Projects
 
-- [opik](https://github.com/comet-ml/opik) – Open-source LLM evaluation & tracing framework  
-- [comet-examples](https://github.com/comet-ml/comet-examples) – Tutorials, notebooks, and example pipelines  
-- [opik-mcp](https://github.com/comet-ml/opik-mcp) – MCP-powered context and eval framework for Opik
+| Project | What it's for |
+| --- | --- |
+| 🔬 [**opik**](https://github.com/comet-ml/opik) | Open-source LLM evaluation and tracing — debug, evaluate, and monitor LLM apps and RAG pipelines |
+| 🧪 [**comet-examples**](https://github.com/comet-ml/comet-examples) | Notebooks, integrations, and end-to-end example pipelines |
+| ⚙️ [**opik-mcp**](https://github.com/comet-ml/opik-mcp) | MCP server for Opik — structured LLM evaluation from MCP-aware clients |
+
+Using the hosted platform? Start at [comet.com](https://www.comet.com) to track experiments, datasets, and models, and to monitor production ML.
 
 ---
 
 ## Contributing
 
-We welcome contributions of all kinds – code, docs, feedback, and examples.  
-Start with any repo’s `README` and check out the open issues.
-See our [CONTRIBUTING.md](https://github.com/comet-ml/opik/blob/main/CONTRIBUTING.md) for more information and guidelines.
+We welcome contributions of all kinds — code, docs, feedback, and examples. Start with any repo's `README`, then browse the open issues. Opik's [CONTRIBUTING.md](https://github.com/comet-ml/opik/blob/main/CONTRIBUTING.md) has the setup and review guidelines.
 
-Questions? Join us in [Slack](https://www.comet.com/slack).
-
----
-
-## About
-
-Comet is a platform built for ML and LLM developers.  
-We help teams build, debug, and monitor AI systems with transparency and control.
+Questions, or want to talk to the team? Join us in [Slack](https://www.comet.com/slack).

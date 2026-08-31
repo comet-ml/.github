@@ -1,0 +1,52 @@
+name: Bug report
+description: Something isn't working the way it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a report. Please search the existing issues first — if you find a match, add your details there instead of opening a duplicate.
+
+        **Found a security vulnerability?** Do not file it here. Follow our [security policy](https://github.com/comet-ml/.github/blob/main/SECURITY.md) to report it privately.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you get instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: The smallest snippet or sequence of steps that shows the problem.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or traceback
+      description: Paste any error output. This is automatically formatted as code, no backticks needed.
+      render: shell
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Package or image version, or the commit SHA you are running.
+      placeholder: "e.g. opik 1.4.2"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python/Node version, deployment (local, self-hosted, Comet Cloud), and anything else relevant.
+    validations:
+      required: false
