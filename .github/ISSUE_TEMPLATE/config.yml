@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question or setup help
+    url: https://www.comet.com/slack
+    about: Ask in the Comet Slack community — usually the fastest way to get unblocked.
+  - name: Documentation
+    url: https://www.comet.com/docs
+    about: Guides, SDK reference, and integrations.
+  - name: Report a security vulnerability
+    url: https://github.com/comet-ml/.github/blob/main/SECURITY.md
+    about: Please report privately, never as a public issue.
